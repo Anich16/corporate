@@ -88,7 +88,6 @@ body {
 .nav-menu {
 
     display: none;
-    background: #ececec;
     width: 50%;
     text-align: center;
     position: absolute;
@@ -99,6 +98,7 @@ body {
 }
 .nav-menu .menu-item {
     padding: 15px;
+    background: #ececec;
     border: 2px solid #fb8686;
 }
 .nav-menu .menu-list .link {
@@ -182,7 +182,7 @@ body {
 .description-design {
     display: none;
 }
-.reviews {
+.clients {
     display: none;
 }
 .browser {
@@ -225,7 +225,144 @@ body {
     display: none;
 }
 @media screen and (min-width: 800px) {
+    .header {
+        display: block;
+        width: 100%;
+        height: 40px;
+        background: #fb8686;
 
+    }
+    .menu {
+        display: none;
+    }
+    .nav-menu {
+        display: block;
+        width: 100%;
+        position: static;
+    
+    }
+    .nav-menu .menu-list {
+        display: flex;
+
+    }
+    .nav-menu .menu-list .menu-item {
+        width: 25%;
+    }
+    .nav-menu .menu-list .link {
+        color: #282828;
+        text-decoration: none;
+    }
+    .nav-menu .menu-list .link:hover {
+        color: #fff;
+        background: #fb8686;
+    }
+    .block-description .description-organization .description .text {
+        font-size: 16px;
+       
+    }
+    .services {
+        padding: 25px;
+    }
+    .services .services-list {
+        padding: 20px 25px;
+        display: flex;
+        flex-direction: row;
+    }
+    .services .services-list .services-item {
+        margin-bottom: 15px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .services .services-list .services-item:last-of-type {
+        margin-right: 0;
+    }
+    .services .services-list .services-item .icon {
+        display: block;
+        float: left;
+        margin-right: 15px;
+    }
+    .services .services-list .services-item .title {
+        font-size: 18px;
+        font-weight: 500;
+        padding-bottom: 5px;
+    }
+    .services .services-list .services-item .description {
+        display: block;
+        font-size: 14px;
+        font-weight: 500;
+        color: #858584;
+        clear: both;
+        padding-top: 10px;
+        line-height: 25px;
+    }
+    .clients{
+        display: block;
+        background-image: url(../images/foto3.jpg);
+        background-size: 100%;
+        padding: 25px;
+    }
+   .clients .reviews {
+    display: flex;
+
+    }
+    .clients .reviews .review {
+        margin-right: 20px;
+    }
+    .clients .reviews .review:last-of-type {
+        margin-right: 0;
+    }
+    .clients .reviews .review .photo {
+        width: 77px;
+        height: 77px;
+        border: 2px solid #1d1e24;
+        background: #4e4e5e;
+        margin: 0 auto;
+
+    }
+    .clients .reviews .review .author {
+        font-size: 20px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        line-height: 25px;
+    }
+    .clients .reviews .review .position {
+        font-size: 12px;
+        color: #ff6d6d;
+        display: block;
+        text-align: center;
+        line-height: 20px;
+    }
+    .clients .reviews .review .text {
+        font-size: 14px;
+        font-style: italic;
+        color: #fff;
+        text-align: center;
+        line-height: 20px;
+        padding-top: 15px;
+
+    }
+    .clients .reviews .review .text:before {
+        content: "“";
+
+    }
+    .clients .reviews .review .text:after {
+        content: "”";
+        
+    }
+    .registration {
+        display: block;
+        padding: 25px;
+        background: #323969;
+
+    }
+    .registration .section-name .text {
+        color: #fff;
+    }
+    .registration .section-name .text:after {
+        content: "...";
+        margin-left: 10px;
+    }
 }
 @media screen and (min-width: 1100px) {
 
