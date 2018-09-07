@@ -146,11 +146,8 @@ body {
     line-height: 20px;
 }
 .block-description .background {
-    background: url(../images/background1.png);
     display: none;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    width: 50%;
+   
 }
 .services {
     }
@@ -179,7 +176,7 @@ body {
     font-weight: 500;
     color: #858584;
 }
-.description-design {
+.user-info {
     display: none;
 }
 .clients {
@@ -231,6 +228,9 @@ body {
         height: 40px;
         background: #fb8686;
 
+    }
+    .header .content {
+        display: none;
     }
     .menu {
         display: none;
@@ -295,6 +295,9 @@ body {
         padding-top: 10px;
         line-height: 25px;
     }
+    .user-info {
+        display: none;
+    }
     .clients{
         display: block;
         background-image: url(../images/foto3.jpg);
@@ -350,6 +353,9 @@ body {
         content: "”";
         
     }
+    .clients .brands {
+        display: none;
+    }
     .registration {
         display: block;
         padding: 25px;
@@ -363,7 +369,371 @@ body {
         content: "...";
         margin-left: 10px;
     }
-}
-@media screen and (min-width: 1100px) {
+    .registration .text-info {
+        text-align: right;
+        color: #fff;
+        font-size: 12px;
+    }
+    #formSubscribe {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    #formSubscribe .label {
+        padding: 5px 15px;
+        background: #464c77;
+        color: #fff;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        border-radius: 3px;
+    }
+    #formSubscribe .button {
+        padding: 5px 20px;
+        background: #ff6d6d;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        box-shadow: 1px 1px 2px #000;
+    }
+    .registration .description {
+            text-align: center;
+        margin-top: 20px;
+        color: #fff;
+        font-size: 14px;
+    }
+    .registration .description .text {
+        text-decoration: underline;
+    }
+}   
 
+@media screen and (min-width: 1100px) {
+    body {
+        min-width: 1450px;
+    }
+    .header {
+        width: 100%;
+        height: 100%;
+        background: url(../images/foto1.jpg); 
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }  
+    .header .content {
+        display: block;
+        text-align: center;
+        padding: 220px 25% 215px;
+    }
+    .header .content .title {
+        font-size: 60px;
+        font-weight: 100;
+        line-height: 75px;
+    }
+    .header .content .icon {
+         display: inline-block;
+         margin: 45px 0 35px;
+    }
+    .header .content .button {
+        display: block;
+        background: #ff6d6d;
+        width: 185px;
+        margin: 0 auto;
+        padding: 17px 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .header .content .text-info {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .header .content .text-info:before {
+        content: "*";
+        padding-right: 5px;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .section-name .title {
+        font-size: 16px;
+    }
+    .section-name .text {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .block-description {
+        height: 100%;
+    }
+    .block-description .description-organization {
+        width: 50%;
+        padding: 190px 150px 86px;
+    }
+    .block-description .description-organization .section-name {
+        padding-top: 0;
+        line-height: 50px;
+        padding-bottom: 45px;
+        padding-left: 0;
+    }
+    .block-description .description-organization .description {
+        padding: 0;
+
+    }
+    .block-description .description-organization .description .text {
+        font-size: 16px;
+        padding-top: 0;
+        padding-bottom: 40px;
+        line-height: 26px;
+    }
+    .block-description .background {
+        display: block;
+      /*  background: url(../images/background1.png);*/
+        background-repeat: no-repeat;
+        width: 50%;
+       /* background-size: 100%;
+        */
+        background-image: linear-gradient(140deg , #ececec 60%, #fb8686 40% );
+    }
+    .services {
+        height: 100%;
+        background-image: url(../images/foto2.jpg);
+        background-size: 100%;
+        padding: 120px 170px 157px;
+        background-repeat: no-repeat;
+    }
+    .services .services-list {
+        padding: 80px 0 0;
+        justify-content: space-between;
+       
+    }
+    .services .services-list .services-item {
+        margin-bottom: 0;
+        line-height: 0;
+        text-align: center;
+        width: 340px;
+    }
+    .services .services-list .services-item .icon {
+       
+        float: none;
+        margin-right: 0;
+        margin: 0 auto;
+    }
+    .services .services-list .services-item .title {
+        font-size: 22px;
+        line-height: 30px;
+        padding-top: 25px;
+        padding-bottom: 0;
+    }
+    .services .services-list .services-item .description {
+        font-size: 16px;
+        line-height: 26px;
+        padding-top: 20px;
+    }
+    .user-info {
+        display: flex;
+        background-image: linear-gradient(-145deg , #fff 60%, #fb8686 40% );
+        padding: 100px 200px 100px 75px;
+    }
+    .user-info .photo {
+        margin-right: 60px;
+    }
+    .user-info .info .section-name {
+        text-align: left;
+    }
+    .user-info .info .section-name .text:after {
+        content: "....";
+        padding-left: 10px;
+        color: #ff6d6d;
+    }
+    .user-info .info .description .text {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 500;
+        margin-top: 40px;
+        color: #858584;
+    }
+    .clients{
+        padding: 105px 150px 75px;
+    }
+   
+    .clients .reviews .review {
+        margin-right: 70px;
+    }
+    .clients .reviews .review .photo {
+        width: 77px;
+        height: 77px;
+        border: 2px solid #1d1e24;
+        background: #4e4e5e;
+        margin: 0 auto;
+
+    }
+    .clients .reviews .review .author {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    .clients .reviews .review .position {
+        font-size: 16px;
+        margin: 15px 0 30px;
+    }
+    .clients .reviews .review .text {
+        font-size: 16px;
+        line-height: 26px;
+        padding-top: 0;
+
+    }
+   .clients .brands {
+        display: block;
+        margin-top: 90px;
+   }
+   .clients .brands .brands-list {
+        display: flex;
+        height: 87px;
+        justify-content: space-between;
+   }
+   .browser {
+        display: block;
+        padding: 105px 310px 0;
+        height: 100%;
+   }
+   .browser .info .description {
+        text-align: center;
+   }
+   .browser .info .description .text {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 40px 0 100px;
+        color: #858584;
+        padding: 0 60px;
+   }
+   .browser .info .photo {
+        text-align: center;
+   }
+   .registration {
+        padding: 90px 150px 85px;
+
+    }
+   
+    .registration .text-info {
+        
+        font-size: 16px;
+        margin: 40px 0 30px;
+        padding-right: 40px;
+    }
+    .registration .text-info .arrow {
+        transform: scale(1, -1);
+        padding-right: 185px;
+    }
+    .registration .text-info .arrow .photo {
+        transform: rotate(-55deg);
+    }
+    #formSubscribe {
+        
+        margin-top: 0;
+    }
+    #formSubscribe .label {
+        padding: 10px 25px;
+        font-size: 16px
+    }
+    #formSubscribe .button {
+        padding: 10px 95px;
+        cursor: pointer;
+    }
+    .registration .description {
+           
+        margin-top: 50px;
+    
+        font-size: 16px;
+    }
+    .contacts {
+        display: none;
+    }
+    .footer {
+        padding: 90px 310px 95px 135px;
+        display: flex;
+        justify-content: space-between;
+        background-image: linear-gradient(45deg , #fff 80%, #ff8a8a 20% );
+    }
+    .footer .data {
+        width: 230px;
+        margin-right: 45px;
+    }
+    .footer .data .link-logo {
+        font-size: 27px;
+        color: #2c2f49;
+        text-decoration: none;
+
+    }
+    .footer .data .link-logo .logo {
+        background: url(../images/play2.png);
+        color: #fff;
+        padding: 13px 10px 13px 0;
+        background-size: 50px;
+        background-repeat: no-repeat;
+    }
+    .footer .data .text {
+        margin-top: 30px;
+        color: #9e9e9e;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .footer .data .text .telephone {
+        display: block;
+    }
+    .footer .data .text .telephone .link {
+        color: #9e9e9e;
+        text-decoration: none;
+    }
+    .footer .suppot,
+    .footer .info-block {
+        margin-right: 100px;
+    }
+    .footer .suppot .title,
+    .footer .info-block .title,
+    .footer .connection .letter .title {
+        color: #282828;
+        font-size: 22px;
+        
+    }
+    .footer .suppot .list .item ,
+    .footer .info-block .list .item {
+        margin-top:  20px;
+        text-align: left;
+    }
+    .footer .suppot .list .item .link,
+    .footer .info-block .list .item .link {
+        text-decoration: none;
+        color: #9e9e9e;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #formLetter {
+        margin: 30px 0 20px;
+        display: flex;
+    }
+    #formLetter .label {
+        font-size: 16px;
+        line-height: 32px;
+        text-transform: uppercase;
+        padding-left: 25px;
+        background: #f6f6f6;
+        border: 2px solid #cbcbcb;
+        border-radius: 3px;
+    }
+    #formLetter .button {
+        background: #ff6d6d;
+        background-image: url(../images/flying.png);
+        background-repeat: no-repeat;
+        margin-left: -6px;
+        line-height: 32px;
+        padding-right: 32px;
+        background-position: center;
+        border: none;
+        border-radius: 3px;
+        box-shadow: 1px 1px 10px #c3c3c3;
+    }
+    .footer .connection .social-list {
+        padding-right: 35px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+   
 }
