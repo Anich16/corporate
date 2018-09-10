@@ -244,6 +244,7 @@ body {
 }
 #clients .brands .brands-list .item .photo {
     height: 50%;
+    opacity: 0.3;
 }
 .browser {
     display: none;
@@ -523,7 +524,7 @@ body {
     .header .content {
         display: block;
         text-align: center;
-        padding: 50px 25% 165px;
+        padding: 50px 25% 145px;
     }
     .header .content .title {
         font-size: 60px;
@@ -710,4 +711,85 @@ body {
         font-size: 16px;
         line-height: 26px;
     }
+    .user-info {
+        padding: 100px 205px 105px 70px;
+        background-image: linear-gradient(-135deg , #fff 70%, #fb8686 30% );
+    }
+    .user-unfo .info .description .text {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 25px;
+    }
+    #clients {
+        padding: 105px 145px 75px;
+    }
+    #clients .reviews {
+        margin-bottom: 35px;
+    }
+    #clients .reviews .review {
+        width: 335px;
+    }
+    #cliets .reviews .review .photo {
+        width: 77px;
+        height: 77px;
+    }
+    #clients .reviews .review .author {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    #clients .reviews .review .position {
+        font-size: 16px;
+        line-height: 26px;
+
+    }
+    #clients .reviews .review .text {
+        
+        padding: 0 15px;
+    }
+    #clients .brands {
+        margin-top: 0;
+        
+    }
+    #clients .brands .brands-list .item .photo {
+        height: 80%;
+    }
+    .browser {
+        padding: 105px 270px 0;
+    }
+    .browser .info .description .text {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 45px 0 105px;
+        padding: 0 50px;
+    }
+    #registration {
+        padding: 95px 145px 85px 135px;
+    }
+    #registration .text-info {
+        font-size: 16px;
+        margin: 45px 0 15px;
+        padding-right: 80px;
+    }
+    #registration .text-info .arrow {
+        margin-right: 45px;
+    }
+    #formSubscribe {
+        margin: 25px 0 50px;
+    }
+    #formSubscribe .label {
+        padding: 15px 25px;
+    }
+    #formSubscribe .button {
+        padding: 15px 95px;
+    }
+    #formSubscribe .description {
+        font-size: 16px;
+    }
+    #footer {
+        padding: 90px 325px 85px 125px;
+        background:  linear-gradient(30deg , #fff 75%, #fb8686 25% );
+    }
+}
+@media screen and (min-width: 1440px){
+
 }
