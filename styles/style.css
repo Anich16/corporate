@@ -629,8 +629,10 @@ body {
     }
     .browser {
         display: block;
-        padding: 55px 155px 0;
         height: 100%;
+   }
+   .browser .info {
+        padding: 55px 110px 0;
    }
    .browser .info .description {
         text-align: center;
@@ -642,7 +644,7 @@ body {
         color: #858584;
         padding: 0 30px;
    }
-   .browser .info .photo {
+   .browser .photo {
         text-align: center;
    }
    #registration {
@@ -676,7 +678,7 @@ body {
 
 @media screen and (min-width: 1200px){
     .header .content {
-        padding: 180px 25% 230px;
+       padding: 80px 25% 170px;
     }
     .header .content .title {
         font-size: 60px;
@@ -695,7 +697,7 @@ body {
         width: 40%;
     }
     #services {
-        padding: 120px 140px 140px;
+        padding: 120px 140px;
     }
     #services .services-list {
         justify-content: space-between;
@@ -712,7 +714,7 @@ body {
         line-height: 26px;
     }
     .user-info {
-        padding: 100px 205px 105px 70px;
+        padding: 100px 170px 105px 70px;
         background-image: linear-gradient(-135deg , #fff 70%, #fb8686 30% );
     }
     .user-unfo .info .description .text {
@@ -754,7 +756,10 @@ body {
         height: 80%;
     }
     .browser {
-        padding: 105px 270px 0;
+       
+    }
+    .browser .info {
+        padding: 105px 180px 0;
     }
     .browser .info .description .text {
         font-size: 16px;
@@ -791,5 +796,49 @@ body {
     }
 }
 @media screen and (min-width: 1440px){
-
+    .header .content {
+        padding: 140px 25% 220px;
+    }
+    #blockDescription .background {
+        background-image: linear-gradient(135deg , #ececec 60%, #fb8686 40% );
+    }
+    #services {
+      padding: 120px 160px 128px;
+    }
+    #services .services-list {
+        padding-top: 50px;
+    }
+    #services .services-list .item {
+        margin-right: 60px;
+    }
+    #services .services-list .item .title {
+        margin: 20px 0 20px;
+    }
+    .user-info {
+        padding: 60px 120px 60px 118px;
+    }
+    #clients {
+        padding: 105px 175px 75px;
+    }
+    .browser .info {
+        padding: 105px 370px 0;
+    }
+    #registration {
+        padding: 95px 155px 85px 145px;
+    }
+    #registration .text-info {
+        padding-right: 90px;
+    }
+    #registration .text-info .arrow {
+        margin-right: 65px;
+    }
+    #formSubscribe .label {
+        padding: 20px 40px;
+    }
+    #formSubscribe .button {
+        padding: 20px 105px;
+    }
+    #footer {
+        padding: 90px 355px 85px 155px;
+    }
 }
