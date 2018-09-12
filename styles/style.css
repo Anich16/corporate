@@ -118,59 +118,55 @@ body {
     height: 100%;
 
 }
-#blockDescription {
 
-}
-#blockDescription .content {
-   
-}
-#blockDescription .content .section-name {
+
+.block-description .content .section-name {
     text-align: left;
     padding-left: 25px;
 }
-#blockDescription .content .section-name .text:after {
+.block-description .content .section-name .text:after {
     content: "....";
     padding-left: 10px;
     color: #ff6d6d;
 
 }
-#blockDescription .content .description {
+.block-description .content .description {
     padding: 25px;
 
 }
-#blockDescription .content .description .text {
+.block-description .content .description .text {
     font-size: 12px;
     font-weight: 500;
     color: #858584;
     padding-top: 25px;
     line-height: 20px;
 }
-#blockDescription .background {
+.block-description .background {
     display: none;
    
 }
-#services {
+.services-block {
     }
-#services .services-list {
+.services-block .services-list {
     padding: 20px 25px;
     display: flex;
     flex-direction: column;
 }
-#services .services-list .item {
+.services-block .services-list .item {
     margin-bottom: 15px;
     line-height: 20px;
 }
-#services .services-list .item .icon {
+.services-block .services-list .item .icon {
     display: block;
     float: left;
     margin-right: 15px;
 }
-#services .services-list .item .title {
+.services-block .services-list .item .title {
     font-size: 18px;
     font-weight: 500;
     padding-bottom: 5px;
 }
-#services .services-list .item .description {
+.services-block .services-list .item .description {
     display: block;
     font-size: 12px;
     font-weight: 500;
@@ -179,21 +175,21 @@ body {
 .user-info {
     display: none;
 }
-#clients {
+.clients-block {
     display: block;
     background-image: url(../images/foto3.jpg);
     background-size: 100%;
     padding: 25px;
 }
-#clients .reviews {
+.clients-block .reviews {
     display: block;
 
 }
-#clients .reviews .review {
+.clients-block .reviews .review {
    margin-bottom: 20px;
 }
 
-#clients .reviews .review .photo {
+.clients-block .reviews .review .photo {
     width: 55px;
     height: 55px;
     border: 2px solid #1d1e24;
@@ -204,19 +200,19 @@ body {
 
 
 }
-#clients .reviews .review .author {
+.clients-block .reviews .review .author {
     font-size: 16px;
     color: #fff;
     display: inline-block;
 
 }
-#clients .reviews .review .position {
+.clients-block .reviews .review .position {
     font-size: 12px;
     color: #ff6d6d;
     display: inline-block;
 
 }
-#clients .reviews .review .text {
+.clients-block .reviews .review .text {
     font-size: 12px;
     font-style: italic;
     color: #fff;
@@ -225,40 +221,40 @@ body {
     padding-top: 15px;
 
 }
-#clients .reviews .review .text:before {
+.clients-block .reviews .review .text:before {
     content: "“";
 
 }
-#clients .reviews .review .text:after {
+.clients-block .reviews .review .text:after {
     content: "”";
     
 }
-#clients .brands {
-    display: block;
-    margin-top: 40px;
+.clients-block .brands {
+    display: none;
+    
 }
-#clients .brands .brands-list {
+.clients-block .brands .brands-list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-#clients .brands .brands-list .item .photo {
+.clients-block .brands .brands-list .item .photo {
     height: 50%;
     opacity: 0.3;
 }
 .browser {
     display: none;
 }
-#registration {
+.registration-block {
     padding: 15px;
     background: #323969;
 
 }
-#registration .section-name  {
+.registration-block .section-name  {
     display: none;
 }
 
-#registration .text-info {
+.registration-block .text-info {
     display: none;
 }
 #formSubscribe {
@@ -266,6 +262,7 @@ body {
 }
 #formSubscribe .label {
     padding: 5px 15px;
+    width: 90%;
     background: #464c77;
     color: #fff;
     border: 1px solid #fff;
@@ -283,54 +280,56 @@ body {
     box-shadow: 1px 1px 2px #000;
     cursor: pointer;
 }
-#registration .description {
+.registration-block .description {
     text-align: left;
     margin-top: 20px;
     color: #fff;
     font-size: 14px;
 }
-#registration .description .text {
+.registration-block .description .link {
     text-decoration: underline;
+    color: #fff;
+
 }
-#footer {
+.footer-block {
     padding: 20px;
     display: flex;
     justify-content: space-between;
 
 }
-#footer .data {
+.footer-block .data {
     width: 230px;
    
 }
-#footer .data .link-logo {
+.footer-block .data .link-logo {
     font-size: 22px;
     color: #2c2f49;
     text-decoration: none;
 
 }
-#footer .data .link-logo .logo {
+.footer-block .data .link-logo .logo {
     background: url(../images/play2.png);
     color: #fff;
     padding: 13px 10px 13px 0;
     background-size: 43px;
     background-repeat: no-repeat;
 }
-#footer .data .description {
+.footer-block .data .description {
     margin-top: 15px;
     color: #9e9e9e;
     font-size: 14px;
     line-height: 20px;
 }
-#footer .data .description .telephone {
+.footer-block .data .description .telephone {
     display: block;
 }
-#footer .data .description .telephone .link {
+.footer-block .data .description .telephone .link {
     color: #9e9e9e;
     text-decoration: none;
 }
 
-#footer .suppot,
-#footer .info-block {
+.footer-block .suppot,
+.footer-block .info-block {
    display: none;
 }
 #formLetter {
@@ -358,7 +357,7 @@ body {
     border-radius: 3px;
     box-shadow: 1px 1px 10px #c3c3c3;
 }
-#footer .connection .social-list {
+.footer-block .connection .social-list {
     padding-right: 35px;
     display: flex;
     justify-content: space-around;
@@ -401,66 +400,70 @@ body {
         color: #fff;
         background: #fb8686;
     }
-    #blockDescription .content .description .text {
+    .block-description .content .description .text {
         font-size: 14px;
     }
-    #services .services-list {
+    .services-block .services-list {
         padding: 20px 25px;
         display: flex;
         flex-direction: row;
     }
-    #services .services-list .item {
+    .services-block .services-list .item {
         margin-bottom: 0;
         margin-right: 20px;
     }
-    #services .services-list .item:last-of-type {
+    .services-block .services-list .item:last-of-type {
         margin-right: 0;
     }
-    #services .services-list .item .icon {
-        margin-bottom: 20px;
+    .services-block .services-list .item .icon {
+        margin: 20px auto;
         float: none;
-        margin-right: 0;
+        
 
     }
-    #services .services-list .item .title {
+    .services-block .services-list .item .title {
         font-size: 20px;
     }
-    #services .services-list .item .description {
+    .services-block .services-list .item .description {
         font-size: 14px;
     }
-    #clients {
+    .clients-block {
         padding: 40px;
     }
-    #clients .reviews .review {
+    .clients-block .reviews .review {
         margin-bottom: 30px;
         text-align: center;
     }
-    #clients .reviews .review .photo {
+    .clients-block .reviews .review .photo {
         display: block;
         margin: 0 auto;
         float: none;
     }
-    #clients .reviews .review .author {
+    .clients-block .reviews .review .author {
         display: block;
         margin: 10px 0;
     }
-    #clients .reviews .review .text {
+    .clients-block .reviews .review .text {
         padding: 15px 80px;
         text-align: center;
     }
-    #clients .brands .brands-list {
+    .clients-block .brands {
+        display: block;
+        margin-top: 40px;
+    }
+    .clients-block .brands .brands-list {
         justify-content: space-around;
     }
-    #registratio {
+    .registratio-block{
         padding: 25px 20px 35px;
     }
-    #registration .section-name  {
+    .registration-block .section-name  {
         display: block;
     }
-    #registration .section-name .text {
+    .registration-block .section-name .text {
         color: #fff;
     }
-    #registration .section-name .text:after {
+    .registration-block .section-name .text:after {
         content: "...";
         margin-left: 10px;
     }
@@ -472,30 +475,31 @@ body {
     }
     #formSubscribe .label {
         margin-bottom: 0;
+        width: auto;
     }
-    #registration .description {
+    .registration-block .description {
         text-align: center;
         margin-top: 0;
     }
 
-    #footer .suppot,
-    #footer .info-block {
+    .footer-block .suppot,
+    .footer-block .info-block {
         display: block;
     }
-    #footer .suppot .title,
-    #footer .info-block .title,
-    #footer .connection .letter .title {
+    .footer-block .suppot .title,
+    .footer-block .info-block .title,
+    .footer-block .connection .letter .title {
         color: #282828;
         font-size: 22px;
         
     }
-    #footer .suppot .list .item ,
-    #footer .info-block .list .item {
+    .footer-block .suppot .list .item ,
+    .footer-block .info-block .list .item {
         margin-top:  10px;
         text-align: left;
     }
-    #footer .suppot .list .item .link,
-    #footer .info-block .list .item .link {
+    .footer-block .suppot .list .item .link,
+    .footer-block .info-block .list .item .link {
         text-decoration: none;
         color: #9e9e9e;
         font-size: 14px;
@@ -529,11 +533,19 @@ body {
     .header .content .title {
         font-size: 60px;
         font-weight: 100;
+       
         
     }
     .header .content .icon {
-         display: inline-block;
-         padding: 25px ;
+         display: block;
+         margin: 25px auto;
+         background-image: url(../images/play.png);
+         width: 64px;
+         height: 64px;
+    }
+    .header .content .icon:hover {
+        background-image: url(../images/play-sign.png);
+        
     }
     .header .content .button {
         display: block;
@@ -556,44 +568,44 @@ body {
     .header .nav-menu {
         display: none;
     }
-    #blockDescription {
+    .block-description {
         display: flex;
         flex-direction: row;
     }
-    #blockDescription .content {
+    .block-description .content {
         width: 50%;
         padding: 95px 75px 43px;
     }
-    #blockDescription .background {
+    .block-description .background {
         display: block;
         background-image: linear-gradient(140deg , #ececec 60%, #fb8686 40% );
         background-repeat: no-repeat;
         width: 50%;
     }
-    #services {
+    .services-block {
         height: 100%;
         background-image: url(../images/foto2.jpg);
         background-size: 100%;
         padding: 60px 85px 75px;
         background-repeat: no-repeat;
     }
-    #services .services-list {
+    .services-block .services-list {
         margin-top: 40px;
         padding: 0;
     }
-    #services .services-list .item {
+    .services-block .services-list .item {
         text-align: center;
     }
-    #services .services-list .item .icon {
+    .services-block .services-list .item .icon {
         margin: 0 auto;
     }
-    #services .services-list .item .title {
+    .services-block .services-list .item .title {
         font-size: 20px;
         line-height: 30px;
         padding-top: 25px;
         padding-bottom: 20px;
     }
-    #services .services-list .item .description {
+    .services-block .services-list .item .description {
         font-size: 16px;
         line-height: 26px;
         
@@ -621,7 +633,7 @@ body {
         margin-top: 20px;
         color: #858584;
     }
-    #clients .reviews {
+    .clients-block .reviews {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -647,10 +659,10 @@ body {
    .browser .photo {
         text-align: center;
    }
-   #registration {
+   .registration-block {
         padding: 45px 75px 45px;
    }
-   #registration .text-info {
+   .registration-block .text-info {
         display: block;
         font-size: 12px;
         text-align: right;
@@ -658,11 +670,11 @@ body {
         margin: 20px 0 15px;
         padding-right: 20px;
     }
-    #registration .text-info .arrow {
+    .registration-block .text-info .arrow {
         transform: scale(1, -1);
         padding-right: 130px;
     }
-    #registration .text-info .arrow .photo {
+    .registration-block .text-info .arrow .photo {
         transform: rotate(-55deg);
     }
     #formSubscribe .label {
@@ -671,7 +683,7 @@ body {
     #formSubscribe .button {
         padding: 8px 25px;
     }
-    #footer {
+    .footer-block {
         padding: 25px 30px;
     }
 }
@@ -684,32 +696,32 @@ body {
         font-size: 60px;
         line-height: 70px;
     }
-    #blockDescription .content {
+    .block-description .content {
         width: 60%;
         padding: 190px 145px 150px;
     }
-    #blockDescription .content .description .text {
+    .block-description .content .description .text {
         font-size: 16px;
         line-height: 26px;
     }
-    #blockDescription .background {
+    .block-description .background {
         background-image: linear-gradient(130deg , #ececec 60%, #fb8686 40% );
         width: 40%;
     }
-    #services {
+    .services-block {
         padding: 120px 140px;
     }
-    #services .services-list {
+    .services-block .services-list {
         justify-content: space-between;
     }
-    #services .services-list .item .title {
+    .services-block .services-list .item .title {
         font-size: 22px;
         line-height: 40px;
         padding: 0;
         margin-top: 10px;
 
     }
-    #services .services-list .item .description {
+    .services-block .services-list .item .description {
         font-size: 16px;
         line-height: 26px;
     }
@@ -722,37 +734,37 @@ body {
         line-height: 26px;
         margin-top: 25px;
     }
-    #clients {
+    .clients-block {
         padding: 105px 145px 75px;
     }
-    #clients .reviews {
+    .clients-block .reviews {
         margin-bottom: 35px;
     }
-    #clients .reviews .review {
+    .clients-block .reviews .review {
         width: 335px;
     }
-    #cliets .reviews .review .photo {
+    .cliets-block  .reviews .review .photo {
         width: 77px;
         height: 77px;
     }
-    #clients .reviews .review .author {
+    .clients-block .reviews .review .author {
         font-size: 22px;
         margin-top: 30px;
     }
-    #clients .reviews .review .position {
+    .clients-block .reviews .review .position {
         font-size: 16px;
         line-height: 26px;
 
     }
-    #clients .reviews .review .text {
+    .clients-block .reviews .review .text {
         
         padding: 0 15px;
     }
-    #clients .brands {
+    .clients-block .brands {
         margin-top: 0;
         
     }
-    #clients .brands .brands-list .item .photo {
+    .clients-block .brands .brands-list .item .photo {
         height: 80%;
     }
     .browser {
@@ -767,15 +779,15 @@ body {
         margin: 45px 0 105px;
         padding: 0 50px;
     }
-    #registration {
+    .registration-block {
         padding: 95px 145px 85px 135px;
     }
-    #registration .text-info {
+    .registration-block .text-info {
         font-size: 16px;
         margin: 45px 0 15px;
         padding-right: 80px;
     }
-    #registration .text-info .arrow {
+    .registration-block .text-info .arrow {
         margin-right: 45px;
     }
     #formSubscribe {
@@ -790,7 +802,7 @@ body {
     #formSubscribe .description {
         font-size: 16px;
     }
-    #footer {
+    .footer-block {
         padding: 90px 325px 85px 125px;
         background:  linear-gradient(30deg , #fff 75%, #fb8686 25% );
     }
@@ -799,37 +811,37 @@ body {
     .header .content {
         padding: 140px 25% 220px;
     }
-    #blockDescription .background {
+    .block-description .background {
         background-image: linear-gradient(135deg , #ececec 60%, #fb8686 40% );
     }
-    #services {
+    .services-block {
       padding: 120px 160px 128px;
     }
-    #services .services-list {
+    .services-block .services-list {
         padding-top: 50px;
     }
-    #services .services-list .item {
+    .services-block .services-list .item {
         margin-right: 60px;
     }
-    #services .services-list .item .title {
+    .services-block .services-list .item .title {
         margin: 20px 0 20px;
     }
     .user-info {
         padding: 60px 120px 60px 118px;
     }
-    #clients {
+    .clients-block {
         padding: 105px 175px 75px;
     }
     .browser .info {
         padding: 105px 370px 0;
     }
-    #registration {
+    .registration-block {
         padding: 95px 155px 85px 145px;
     }
-    #registration .text-info {
+    .registration-block .text-info {
         padding-right: 90px;
     }
-    #registration .text-info .arrow {
+    .registration-block .text-info .arrow {
         margin-right: 65px;
     }
     #formSubscribe .label {
@@ -838,7 +850,7 @@ body {
     #formSubscribe .button {
         padding: 20px 105px;
     }
-    #footer {
+    .footer-block {
         padding: 90px 355px 85px 155px;
     }
 }
