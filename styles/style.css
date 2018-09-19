@@ -257,10 +257,10 @@ body {
 .registration-block .text-info {
     display: none;
 }
-#formSubscribe {
+.registration-block .form-subscribe {
 
 }
-#formSubscribe .label {
+.registration-block .form-subscribe .label {
     padding: 5px 15px;
     width: 90%;
     background: #464c77;
@@ -271,7 +271,7 @@ body {
     display: block;
     margin-bottom: 10px;
 }
-#formSubscribe .button {
+.registration-block .form-subscribe .button {
     padding: 6px 20px;
     background: #ff6d6d;
     color: #fff;
@@ -332,11 +332,11 @@ body {
 .footer-block .info-block {
    display: none;
 }
-#formLetter {
+.footer-block .form-letter {
     margin: 15px 0 20px;
     display: flex;
 }
-#formLetter .label {
+.footer-block .formL-ltter .label {
     font-size: 16px;
     line-height: 32px;
     text-transform: uppercase;
@@ -345,7 +345,7 @@ body {
     border: 2px solid #cbcbcb;
     border-radius: 3px;
 }
-#formLetter .button {
+.footer-block .form-letter .button {
     background: #ff6d6d;
     background-image: url(../images/flying.png);
     background-repeat: no-repeat;
@@ -467,13 +467,13 @@ body {
         content: "...";
         margin-left: 10px;
     }
-    #formSubscribe {
+    .registration-block .form-subscribe {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         margin: 25px 0;
     }
-    #formSubscribe .label {
+    .registration-block .form-subscribe .label {
         margin-bottom: 0;
         width: auto;
     }
@@ -677,10 +677,10 @@ body {
     .registration-block .text-info .arrow .photo {
         transform: rotate(-55deg);
     }
-    #formSubscribe .label {
+    .registration-block .form-subscribe .label {
         padding: 7px 20px;
     }
-    #formSubscribe .button {
+    .registration-block .form-subscribe .button {
         padding: 8px 25px;
     }
     .footer-block {
@@ -790,16 +790,16 @@ body {
     .registration-block .text-info .arrow {
         margin-right: 45px;
     }
-    #formSubscribe {
+    .registration-block .form-subscribe {
         margin: 25px 0 50px;
     }
-    #formSubscribe .label {
+    .registration-block .form-subscribe .label {
         padding: 15px 25px;
     }
-    #formSubscribe .button {
+    .registration-block .form-subscribe .button {
         padding: 15px 95px;
     }
-    #formSubscribe .description {
+    .registration-block .form-subscribe .description {
         font-size: 16px;
     }
     .footer-block {
@@ -844,10 +844,10 @@ body {
     .registration-block .text-info .arrow {
         margin-right: 65px;
     }
-    #formSubscribe .label {
+    .registration-block .form-subscribe .label {
         padding: 20px 40px;
     }
-    #formSubscribe .button {
+    .registration-block .form-subscribe .button {
         padding: 20px 105px;
     }
     .footer-block {
